@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Status - NEITH AI</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .status-container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        .status-container h1 {
+            color: var(--primary);
+            margin-bottom: 40px;
+            text-align: center;
+            font-size: 36px;
+        }
+
+        .status-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+
+        .status-card {
+            background: rgba(74, 158, 255, 0.05);
+            border: 1px solid var(--border);
+            padding: 20px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+
+        .status-card:hover {
+            background: rgba(74, 158, 255, 0.1);
+            transform: translateY(-5px);
+        }
+
+        .status-card h3 {
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+
+        .status-card p {
+            color: var(--text-muted);
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .status-badge {
+            display: inline-block;
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .status-online {
+            background: rgba(100, 255, 100, 0.2);
+            color: #64ff64;
+            border: 1px solid #64ff64;
+        }
+
+        .updates {
+            background: rgba(74, 158, 255, 0.05);
+            border: 1px solid var(--border);
+            padding: 30px;
+            border-radius: 8px;
+            margin-bottom: 30px;
+        }
+
+        .updates h2 {
+            color: var(--primary);
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        .update-item {
+            padding: 15px 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .update-item:last-child {
+            border-bottom: none;
+        }
+
+        .update-date {
+            color: var(--primary);
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        .update-text {
+            color: var(--text-muted);
+            font-size: 14px;
+        }
+
+        .info-box {
+            background: rgba(74, 158, 255, 0.05);
+            border: 1px solid var(--border);
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        .info-box h3 {
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+
+        .info-box p {
+            color: var(--text-muted);
+            font-size: 14px;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">⚡ NEITH AI</div>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="install.html">Install</a>
+                <a href="index.html#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="status-container">
+        <h1>📊 System Status</h1>
+
+        <div class="status-grid">
+            <div class="status-card">
+                <h3>🎮 License Server</h3>
+                <p>Licensing system</p>
+                <span class="status-badge status-online">✓ Online</span>
+            </div>
+            <div class="status-card">
+                <h3>📡 Website</h3>
+                <p>Web server</p>
+                <span class="status-badge status-online">✓ Online</span>
+            </div>
+            <div class="status-card">
+                <h3>🤖 Telegram Bot</h3>
+                <p>Sales bot</p>
+                <span class="status-badge status-online">✓ Online</span>
+            </div>
+        </div>
+
+        <div class="updates">
+            <h2>📝 Latest Updates</h2>
+            
+            <div class="update-item">
+                <div class="update-date">December 19, 2025 - v1.0</div>
+                <div class="update-text">
+                    ✅ Initial release<br>
+                    ✅ License system<br>
+                    ✅ Full ESP features<br>
+                    ✅ Bhop Perfect<br>
+                    ✅ Auto Pistol<br>
+                    ✅ FOV Changer<br>
+                    ✅ Radar Hack<br>
+                    ✅ Grenade Helper
+                </div>
+            </div>
+        </div>
+
+        <div class="info-box">
+            <h3>ℹ️ Information</h3>
+            <p>Current version: 1.0</p>
+            <p>Compatibility: CS2 (latest)</p>
+            <p>Last updated: December 19, 2025</p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 NEITH AI. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

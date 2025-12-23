@@ -1,0 +1,15 @@
+# Ignore everything
+/*
+!/.gitignore
+!/docs/
+!/docs/website/
+!/docs/licenses_encrypted.json
+!/docs/.nojekyll
+
+# Allow specific files in docs/website/
+!/docs/website/index.html
+!/docs/website/script.js
+!/docs/website/style.css
+!/docs/website/lang/
+!/docs/website/lang/en.json
+!/docs/website/lang/ru.json
